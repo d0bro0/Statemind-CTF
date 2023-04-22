@@ -6,7 +6,7 @@ import "./forgetest.sol";
 import {FakeJar} from "./FakeJar.sol";
 import {FakeUnderlying} from "./FakeUnderlying.sol";
 import {IController, ICurveProxy, IStrategy} from "./ILogic.sol";
-import "./IERC20.sol";
+import "./Helper.sol";
 
 contract Exploit is Test {
     IController constant strategyCompoundDaiV2 =
